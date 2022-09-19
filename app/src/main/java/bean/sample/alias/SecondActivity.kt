@@ -22,7 +22,7 @@ class SecondActivity : AppCompatActivity() {
 
         binding = ActivitySecondBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        Log.d("testJB","SecondActivity")
+        Log.d("testJB","SecondActivity : $componentName")
     }
 
 }

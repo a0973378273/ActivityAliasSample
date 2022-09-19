@@ -16,14 +16,14 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        val deviceAdmin = ComponentName(this, SecondActivity::class.java)
+        val deviceAdmin = ComponentName("bean.sample.alias", "bean.sample.alias.second")
         Log.d("testJB","MainActivity : ${packageManager.getComponentEnabledSetting(deviceAdmin)}")
 
-        packageManager.setComponentEnabledSetting(
-            deviceAdmin,
-            PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
-            PackageManager.DONT_KILL_APP
-        )
+//        packageManager.setComponentEnabledSetting(
+//            deviceAdmin,
+//            PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
+//            PackageManager.DONT_KILL_APP
+//        )
     }
 
 }
