@@ -37,7 +37,7 @@
             android:exported="true"
             android:name="second"
             android:targetActivity=".SecondActivity"
-            android:label="secondLabel"
+            android:label="secondApp"
             android:enabled="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -57,7 +57,7 @@
             android:exported="true"
             android:name="three"
             android:targetActivity=".ThreeActivity"
-            android:label="threeLabel"
+            android:label="threeApp"
             android:enabled="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

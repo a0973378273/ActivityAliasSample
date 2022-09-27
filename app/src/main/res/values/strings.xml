@@ -8,5 +8,10 @@
     <string name="previous">Previous</string>
 
     <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>+
+
+    <string name="enable_second_app">顯示SecondApp</string>
+    <string name="disable_second_app">隱藏SecondApp</string>
+    <string name="enable_three_app">顯示ThreeApp</string>
+    <string name="disable_three_app">隱藏ThreeApp</string>
 </resources>
